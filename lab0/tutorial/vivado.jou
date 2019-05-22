@@ -1,0 +1,48 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Sep 28 21:07:09 2018
+# Process ID: 14424
+# Current directory: D:/private/File/Vivado/lab0/tutorial
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15448 D:\private\File\Vivado\lab0\tutorial\tutorial.xpr
+# Log file: D:/private/File/Vivado/lab0/tutorial/vivado.log
+# Journal file: D:/private/File/Vivado/lab0/tutorial\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/private/File/Vivado/lab0/tutorial/tutorial.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+synth_design -rtl -name rtl_1
+set_property -name {xsim.simulate.runtime} -value {200ns} -objects [get_filesets sim_1]
+update_ip_catalog
+launch_simulation
+source tutorial_tb.tcl
+run 500 ns
+close_sim
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_design
+open_run synth_1 -name synth_1
+launch_runs impl_1 -jobs 2
+wait_on_run impl_1
+close_design
+open_run impl_1
+close_design
+launch_simulation -mode post-implementation -type timing
+source tutorial_tb.tcl
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {D:/private/File/Vivado/lab0/tutorial/tutorial.runs/impl_1/tutorial.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {D:/private/File/Vivado/lab0/tutorial/tutorial.runs/impl_1/tutorial.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+close_sim

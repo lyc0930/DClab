@@ -1,0 +1,9 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sim_1/imports/lab6/GenerateClock.v,1541729629,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v,,GenerateClock,,,,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sim_1/new/Counter_8bits_tb.v,1541729864,verilog,,,,Counter_8bits_tb,,,,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/Counter_8bits.v,1541729968,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sim_1/imports/lab6/GenerateClock.v,,Counter_8bits,,,,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v,1541728676,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sim_1/new/Counter_8bits_tb.v,,T_ff_enable_behavior,,,,,,,,

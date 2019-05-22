@@ -1,0 +1,12 @@
+
+{ 
+    crc :  1977917539438751087  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 6a83b4fb461a4dfd92fea84f693b17dd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Mealy_3Processes_SequenceDetector_3Multiples_tb_behav xil_defaultlib.Mealy_3Processes_SequenceDetector_3Multiples_tb xil_defaultlib.glbl" , 
+    buildDate : "Jun 14 2018" , 
+    buildTime : "20:41:02" , 
+    linkCmd : "D:\\Applications\\Xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/Mealy_3Processes_SequenceDetector_3Multiples_tb_behav/xsimk.exe\"   \"xsim.dir/Mealy_3Processes_SequenceDetector_3Multiples_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/Mealy_3Processes_SequenceDetector_3Multiples_tb_behav/obj/xsim_1.win64.obj\" \"D:\\Applications\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\Applications\\Xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

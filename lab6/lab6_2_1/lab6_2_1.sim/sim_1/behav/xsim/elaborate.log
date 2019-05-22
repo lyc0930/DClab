@@ -1,0 +1,15 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Applications/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 20f5eb672b9f49eb94d8522a6382d00b --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot Counter_8bits_tb_behav xil_defaultlib.Counter_8bits_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.GenerateClock
+Compiling module xil_defaultlib.T_ff_enable_behavior
+Compiling module xil_defaultlib.Counter_8bits
+Compiling module xil_defaultlib.Counter_8bits_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Counter_8bits_tb_behav

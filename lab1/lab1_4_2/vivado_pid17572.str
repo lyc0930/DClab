@@ -1,0 +1,303 @@
+/*
+
+Xilinx Vivado v2018.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2258646 on Thu Jun 14 20:03:12 MDT 2018
+IP Build: 2256618 on Thu Jun 14 22:10:49 MDT 2018
+
+Process ID: 17572
+License: Customer
+
+Current time: 	Fri Oct 12 13:03:57 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1280x720
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 36 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Applications/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	D:/Applications/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	EnglishOnly
+User home directory: C:/Users/EnglishOnly
+User working directory: C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/Applications/Xilinx/Vivado
+HDI_APPROOT: D:/Applications/Xilinx/Vivado/2018.2
+RDI_DATADIR: D:/Applications/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: D:/Applications/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/EnglishOnly/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/EnglishOnly/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/EnglishOnly/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	D:/Applications/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/vivado.log
+Vivado journal file location: 	C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/vivado.jou
+Engine tmp dir: 	C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/.Xil/Vivado-17572-DESKTOP-G0NQGF3
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Applications/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: D:/Applications/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Applications/Xilinx/Vivado/2018.2
+XILINX_SDK: D:/Applications/Xilinx/SDK/2018.2
+XILINX_VIVADO: D:/Applications/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: D:/Applications/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	205 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 549 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 53 MB (+53585kb) [00:00:07]
+// [Engine Memory]: 485 MB (+357591kb) [00:00:07]
+// bx (ck):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\EnglishOnly\Desktop\Vivado\lab1\lab1_4_2\lab1_4_2.xpr. Version: Vivado v2018.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applications/Xilinx/Vivado/2018.2/data/ip'. 
+// [Engine Memory]: 558 MB (+50443kb) [00:00:10]
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 60 MB (+4225kb) [00:00:11]
+// [Engine Memory]: 634 MB (+50018kb) [00:00:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 38 MB. Current time: 10/12/18 1:04:03 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 907.848 ; gain = 177.543 
+// Project name: lab1_4_2; location: C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (bcdto7segment_dataflow.v) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcdto7segment_dataflow (bcdto7segment_dataflow.v)]", 1, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, bcdto7segment_dataflow (bcdto7segment_dataflow.v)]", 1, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [GUI Memory]: 64 MB (+804kb) [00:00:19]
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+selectCodeEditor("bcdto7segment_dataflow.v", 650, 290); // ce (w, ck)
+// [GUI Memory]: 68 MB (+701kb) [00:00:37]
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'v'); // ce (w, ck)
+selectCodeEditor("bcdto7segment_dataflow.v", 515, 351); // ce (w, ck)
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'v'); // ce (w, ck)
+selectCodeEditor("bcdto7segment_dataflow.v", 895, 368); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'v'); // ce (w, ck)
+selectCodeEditor("bcdto7segment_dataflow.v", 431, 389); // ce (w, ck)
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'v'); // ce (w, ck)
+selectCodeEditor("bcdto7segment_dataflow.v", 225, 411); // ce (w, ck)
+typeControlKey((HResource) null, "bcdto7segment_dataflow.v", 'v'); // ce (w, ck)
+// [GUI Memory]: 74 MB (+2686kb) [00:01:37]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// [GUI Memory]: 80 MB (+2645kb) [00:01:43]
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// [Engine Memory]: 666 MB (+674kb) [00:01:43]
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// Tcl Message: [Fri Oct 12 13:05:32 2018] Launched synth_1... Run output will be captured here: C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 669 MB. GUI used memory: 41 MB. Current time: 10/12/18 1:05:35 PM CST
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 38 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 2 
+// Tcl Message: [Fri Oct 12 13:06:11 2018] Launched impl_1... Run output will be captured here: C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 89 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bx (ck):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 724 MB. GUI used memory: 40 MB. Current time: 10/12/18 1:07:45 PM CST
+// [Engine Memory]: 789 MB (+94702kb) [00:03:57]
+// [Engine Memory]: 992 MB (+171328kb) [00:04:02]
+// [Engine Memory]: 1,045 MB (+3084kb) [00:04:07]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,070 MB. GUI used memory: 41 MB. Current time: 10/12/18 1:08:00 PM CST
+// [Engine Memory]: 1,144 MB (+49139kb) [00:04:12]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,451 MB. GUI used memory: 41 MB. Current time: 10/12/18 1:08:03 PM CST
+// [Engine Memory]: 1,451 MB (+261906kb) [00:04:15]
+// TclEventType: DESIGN_NEW
+// [GUI Memory]: 93 MB (+8817kb) [00:04:15]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 1.1s
+// [Engine Memory]: 1,544 MB (+21690kb) [00:04:17]
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 4 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2 INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1758.594 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.039 . Memory (MB): peak = 1758.594 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// TclEventType: DRC_ADDED
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// Tcl Message: open_run: Time (s): cpu = 00:00:29 ; elapsed = 00:00:25 . Memory (MB): peak = 1853.656 ; gain = 919.020 
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// Device view-level: 0.0
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dP' command handler elapsed time: 28 seconds
+// Elapsed time: 29 seconds
+dismissDialog("Open Implemented Design"); // bx (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// Tcl Message: [Fri Oct 12 13:08:12 2018] Launched impl_1... Run output will be captured here: C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.runs/impl_1/runme.log 
+// bx (ck):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bx (ck)
+// [GUI Memory]: 101 MB (+4317kb) [00:04:30]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking 509ms to process. Increasing delay to 3000 ms.
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 69 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// [GUI Memory]: 109 MB (+3151kb) [00:05:36]
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2   **** Build date : Jun 14 2018-20:42:52     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A8B535A 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,223 MB. GUI used memory: 79 MB. Current time: 10/12/18 1:09:40 PM CST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.runs/impl_1/bcdto7segment_dataflow.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 2,223 MB (+630745kb) [00:05:52]
+dismissDialog("Auto Connect"); // bx (ck)
+// RDIResource.RDIViews_PROPERTIES: Properties: close view
+selectTreeTable(PAResourceEtoH.HardwareTreePanel_HARDWARE_TREE_TABLE, "xc7a100t_0 (1) ; Programmed", 2, "xc7a100t_0 (1)", 0, true, false, false, false, true, false); // t (O, ck) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_PROGRAM_FPGA, "Program Device..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+dismissDialog("Program Device"); // bB (ck)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/EnglishOnly/Desktop/Vivado/lab1/lab1_4_2/lab1_4_2.runs/impl_1/bcdto7segment_dataflow.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 14 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_CLOSE_PROJECT, "Close Project"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// bx (ck):  Close Project : addNotify
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,231 MB. GUI used memory: 66 MB. Current time: 10/12/18 1:10:09 PM CST
+// TclEventType: TIMING_RESULTS_UNLOAD
+// Engine heap size: 2,231 MB. GUI used memory: 68 MB. Current time: 10/12/18 1:10:09 PM CST
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_project 
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+dismissDialog("Close Project"); // bx (ck)

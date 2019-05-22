@@ -1,0 +1,12 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sim_1/imports/lab6/GenerateClock.v,1541677725,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sources_1/new/PCB16_16.v,,GenerateClock,,,../../../../FinalWork.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sim_1/new/dataout_tb.v,1544753876,verilog,,,,dataout_tb,,,../../../../FinalWork.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sources_1/imports/new/Counter.v,1544718559,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sim_1/imports/lab6/GenerateClock.v,,Counter0,,,../../../../FinalWork.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sources_1/imports/new/Counter2.v,1544710823,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sim_1/imports/lab6/GenerateClock.v,,CounterPulse,,,../../../../FinalWork.srcs/sources_1/ip/clk_wiz_0,,,,,
+,,,,,,clk_wiz_0;clk_wiz_0_clk_wiz_0_clk_wiz,,,,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sources_1/new/PCB16_16.v,1544762716,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sim_1/new/dataout_tb.v,,PCB16_16,,,../../../../FinalWork.srcs/sources_1/ip/clk_wiz_0,,,,,
+C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sources_1/new/dataout.v,1544755280,verilog,,C:/Users/EnglishOnly/Desktop/Vivado/lab11/FinalWork/FinalWork.srcs/sim_1/new/dataout_tb.v,,dataout,,,../../../../FinalWork.srcs/sources_1/ip/clk_wiz_0,,,,,

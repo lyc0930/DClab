@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/Counter_8bits.v" \
+"../../../../lab6_2_2.srcs/sources_1/imports/Vivado/lab5/lab5_2_2/lab5_2_2.srcs/sources_1/new/D_ff_negedge_behavior.v" \
+"../../../../lab6_2_2.srcs/sim_1/imports/sim_1/imports/lab6/GenerateClock.v" \
+"../../../../lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v" \
+"../../../../lab6_2_2.srcs/sim_1/imports/sim_1/new/Counter_8bits_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

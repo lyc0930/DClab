@@ -1,0 +1,303 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov  9 13:17:31 2018
+# Process ID: 9864
+# Current directory: C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.runs/synth_1
+# Command line: vivado.exe -log Counter_8bits.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Counter_8bits.tcl
+# Log file: C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.runs/synth_1/Counter_8bits.vds
+# Journal file: C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Counter_8bits.tcl -notrace
+Command: synth_design -top Counter_8bits -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 7680 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 377.551 ; gain = 98.281
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Counter_8bits' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/Counter_8bits.v:23]
+INFO: [Synth 8-6157] synthesizing module 'T_ff_enable_behavior' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:22]
+INFO: [Synth 8-6157] synthesizing module 'D_ff_negedge_behavior' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab5/lab5_2_2/lab5_2_2.srcs/sources_1/new/D_ff_negedge_behavior.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'D_ff_negedge_behavior' (1#1) [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab5/lab5_2_2/lab5_2_2.srcs/sources_1/new/D_ff_negedge_behavior.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'T_ff_enable_behavior' (2#1) [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:22]
+INFO: [Synth 8-6155] done synthesizing module 'Counter_8bits' (3#1) [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/Counter_8bits.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 432.387 ; gain = 153.117
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 432.387 ; gain = 153.117
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 432.387 ; gain = 153.117
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/constrs_1/imports/lab6/Nexys4DDR_Master.xdc]
+Finished Parsing XDC File [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/constrs_1/imports/lab6/Nexys4DDR_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/constrs_1/imports/lab6/Nexys4DDR_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Counter_8bits_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Counter_8bits_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 774.707 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:18 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 8     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module D_ff_negedge_behavior 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3332] Sequential element (TFF0/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF0/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF0/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF1/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF1/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF1/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF2/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF2/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF2/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF3/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF3/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF3/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF4/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF4/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF4/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF5/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF5/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF5/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF6/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF6/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF6/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+WARNING: [Synth 8-3332] Sequential element (TFF7/DFF/Q_reg) is unused and will be removed from module Counter_8bits.
+WARNING: [Synth 8-3332] Sequential element (TFF7/Q_reg) is unused and will be removed from module Counter_8bits.
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 1st driver pin 'TFF7/Q_reg/Q' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-3352] multi-driven net Q with 2nd driver pin 'GND' [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+CRITICAL WARNING: [Synth 8-5559] multi-driven net Q is connected to constant driver, other driver is ignored [C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.srcs/sources_1/imports/Vivado/lab6/lab6_2_1/lab6_2_1.srcs/sources_1/new/T_ff_enable_behavior.v:34]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:40 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |OBUF |     8|
++------+-----+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |     8|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:41 . Memory (MB): peak = 774.707 ; gain = 495.438
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 24 critical warnings and 16 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:32 . Memory (MB): peak = 774.707 ; gain = 153.117
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:42 . Memory (MB): peak = 774.707 ; gain = 495.438
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 16 Warnings, 24 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 776.578 ; gain = 510.582
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/EnglishOnly/Desktop/Vivado/lab6/lab6_2_2/lab6_2_2.runs/synth_1/Counter_8bits.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Counter_8bits_utilization_synth.rpt -pb Counter_8bits_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 776.918 ; gain = 0.020
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  9 13:18:19 2018...

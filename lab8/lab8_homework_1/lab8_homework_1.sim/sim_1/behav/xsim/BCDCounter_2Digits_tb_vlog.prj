@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../lab8_homework_1.srcs/sources_1/ip/c_counter_binary_0/c_counter_binary_0_sim_netlist.v" \
+"../../../../lab8_homework_1.srcs/sim_1/imports/lab6/GenerateClock.v" \
+"../../../../lab8_homework_1.srcs/sources_1/new/BCDCounter_2Digits.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

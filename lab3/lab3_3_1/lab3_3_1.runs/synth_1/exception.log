@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\EnglishOnly\Desktop\Vivado\lab3\lab3_3_1\lab3_3_1.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: 没有权限

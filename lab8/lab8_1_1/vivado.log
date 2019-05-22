@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Nov 16 18:31:49 2018
+# Process ID: 17352
+# Current directory: C:/Users/EnglishOnly/Desktop/Vivado/lab8/lab8_1_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9060 C:\Users\EnglishOnly\Desktop\Vivado\lab8\lab8_1_1\lab8_1_1.xpr
+# Log file: C:/Users/EnglishOnly/Desktop/Vivado/lab8/lab8_1_1/vivado.log
+# Journal file: C:/Users/EnglishOnly/Desktop/Vivado/lab8/lab8_1_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/EnglishOnly/Desktop/Vivado/lab8/lab8_1_1/lab8_1_1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Applications/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 833.449 ; gain = 99.262
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Nov 16 19:00:09 2018...
